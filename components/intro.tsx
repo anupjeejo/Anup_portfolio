@@ -22,7 +22,7 @@ export default function Intro() {
             >
                 <Image
                     src="/Anup_Profile.jpeg"
-                    alt="Ricardo portrait"
+                    alt="Anup portrait"
                     width="400"
                     height="400"
                     quality="100"
