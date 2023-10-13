@@ -1,11 +1,16 @@
+"use client"
+
 import React from 'react'
 import SectionHeading from './sectionHeading'
 import { projectsData } from '@/lib/data'
 import Project from "./project"
+import { useSectionInView } from '@/lib/hooks'
 
 export default function projects() {
+  const { ref } = useSectionInView("Projects");
+
   return (
-    <section>
+    <section ref={ref} id='projects' className='scroll-mt-28'>
         <SectionHeading>My projects</SectionHeading>
         <div className='mb-[100px]'>
             {
