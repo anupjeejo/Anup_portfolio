@@ -9,8 +9,9 @@ import { experiencesData } from '@/lib/data';
 
 export default function Experience() {
   const { ref } = useSectionInView("Experience");
+  
   return (
-    <section id="experience" ref={ref} className='scroll-mt-28'>
+    <section id="experience" ref={ref} className='scroll-mt-28 mb-20'>
         <SectionHeading>My Experience</SectionHeading>
         <VerticalTimeline lineColor=''>
                 {
