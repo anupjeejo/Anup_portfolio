@@ -33,7 +33,7 @@ export default function Intro() {
                     height="400"
                     quality="100"
                     priority={true}
-                    className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+                    className="h-48 w-48 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
                 />
             </motion.div>
             <motion.span className="absolute bottom-0 right-0 text-4xl"
