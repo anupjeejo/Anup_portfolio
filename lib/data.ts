@@ -35,51 +35,67 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Diploma in Computer Engineering",
+    location: "Gujarat, Rajkot",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Cleared Diploma in Computer Engineering from Gujarat Technological Unversity with 10 CGPA. ",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2017-2020",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Degree in Computer Engineering",
+    location: "Gujarat, Rajkot",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Completed Graduation in Computer Engineering from Gujarat Technological Unversity with 8.64 CGPA. ",
+    icon: React.createElement(LuGraduationCap),
+    date: "2020-2023",
+  },
+  {
+    title: "Software Developer Intern",
+    location: "Gujarat , Rajkot",
+    description:
+      "I worked as a Software Developer Intern at Bonzark Tchnologies LLP, for 2 weeks as part of GTU summer internship. My core tech. stack included PHP, Laravel MVC, MS SQL, HTML, CSS",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2022 Jun - 2022 Jul",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Software Engineer Intern",
+    location: "Gujarat, Rajkot",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I worked as a Software Engineer Intern at Version Systems Pvt. Ltd. , for 6 months. My core tech. stack included ASP.NET, C#, HTML, CSS, Bootstrap-5, MS SQL and Oracle.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023 Feb - 2023 Aug",
+  },
+  {
+    title: "Web Developer Intern",
+    location: "Mumbai, Maharashtra",
+    description:
+      "I'm am currently working as a Web Developer Intern at Quantam Rental Solutions Pvt. Ltd. . My core tech. includes React, Express, Node, CSS, AWS and MongoDB. I'm open to full-time opportunities.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023 Sep - Present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "StudyNotion",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Developed a user-friendly and responsive Ed-tech platform built on the MERN stack, that offers learners a wide range of courses on the latest technologies, it also helps educators to showcase their teaching skills.",
+    tags: ["React", "Express", "MongoDB", "Tailwind", "RazorPay", "Node", "Redux"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Bloggie",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Created a website using ASP.NET Core MVC that empowers users to create and upload blogs, attach tags to posts, and explore blogs from other users. Additionally, administrators possess the capability to oversee blogs, affix or revoke tags, as well as modify or remove user information.",
+    tags: ["ASP.NET CORE", "MVC", "C#", "Boostrap-5", "MSSQL"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Rapid Attack and Defence (RAD)",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "RAD is a multiplayer first person shooter game. The main aim of our game is to provide user friendly and enjoyable game-play experience .Here, facilities like hosting game and joining a game are provided .This game is developed with the help of Unity Engine.",
+    tags: ["C#", "Unity", "U-NET"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
@@ -94,14 +110,15 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
+  "Redux Thunk",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
+  "ASP.NET CORE",
+  "C#",
+  "MS SQL",
+  "Oracle",
+  "SVN",
+  "Postman"
 ] as const;
