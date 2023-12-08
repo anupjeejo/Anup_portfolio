@@ -5,6 +5,9 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import studyNotionImg from "@/public/StudyNotion-HomePage.png"
+import pdfPundit from '@/public/PDF-Pundit.png'
+import rad from '@/public/RAD.png'
 
 export const links = [
   {
@@ -80,23 +83,23 @@ export const projectsData = [
   {
     title: "StudyNotion",
     description:
-      "Developed a user-friendly and responsive Ed-tech platform built on the MERN stack, that offers learners a wide range of courses on the latest technologies, it also helps educators to showcase their teaching skills.",
+      "It is a user-friendly and responsive Ed-tech platform built on the MERN stack, that offers learners courses and also helps educators to showcase their teaching skills.",
     tags: ["React", "Express", "MongoDB", "Tailwind", "RazorPay", "Node", "Redux"],
-    imageUrl: corpcommentImg,
+    imageUrl: studyNotionImg,
   },
   {
-    title: "Bloggie",
+    title: "PDF-Pundit",
     description:
-      "Created a website using ASP.NET Core MVC that empowers users to create and upload blogs, attach tags to posts, and explore blogs from other users. Additionally, administrators possess the capability to oversee blogs, affix or revoke tags, as well as modify or remove user information.",
-    tags: ["ASP.NET CORE", "MVC", "C#", "Boostrap-5", "MSSQL"],
-    imageUrl: rmtdevImg,
+      "PDF-Pundit is an AI based web-app which can read through the information of the provided PDF and answer any questions related to it with ease.",
+    tags: ["NextJs", "TypeScript", "AWS S3", "Tailwind", "PineCone", "NeonDB", "OpenAI SDK"],
+    imageUrl: pdfPundit,
   },
   {
     title: "Rapid Attack and Defence (RAD)",
     description:
-      "RAD is a multiplayer first person shooter game. The main aim of our game is to provide user friendly and enjoyable game-play experience .Here, facilities like hosting game and joining a game are provided .This game is developed with the help of Unity Engine.",
+      "RAD is a multiplayer first person shooter game. Here, facilities like hosting game and joining a game are provided .This game is developed with the help of Unity Engine.",
     tags: ["C#", "Unity", "U-NET"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: rad,
   },
 ] as const;
 
