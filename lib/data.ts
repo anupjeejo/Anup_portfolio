@@ -62,21 +62,29 @@ export const experiencesData = [
     date: "2022 Jun - 2022 Jul",
   },
   {
-    title: "Software Engineer Intern",
+    title: "Software Engineer",
     location: "Gujarat, Rajkot",
     description:
-      "I worked as a Software Engineer Intern at Version Systems Pvt. Ltd. , for 6 months. My core tech. stack included ASP.NET, C#, HTML, CSS, Bootstrap-5, MS SQL and Oracle.",
+      "I worked as a Software Engineer at Version Systems Pvt. Ltd. My core tech. stack included ASP.NET, C#, HTML, CSS, Bootstrap-5, MS SQL and Oracle.",
     icon: React.createElement(CgWorkAlt),
     date: "2023 Feb - 2023 Aug",
   },
   {
-    title: "Web Developer Intern",
+    title: "Web Developer",
     location: "Mumbai, Maharashtra",
     description:
-      "I'm am currently working as a Web Developer Intern at Quantam Rental Solutions Pvt. Ltd. . My core tech. includes React, Express, Node, CSS, AWS and MongoDB. I'm open to full-time opportunities.",
+      "I worked as a Web Developer at Quantam Rental Solutions Pvt. Ltd. My core tech. includes React, Express, Node, CSS, AWS and MongoDB.",
     icon: React.createElement(CgWorkAlt),
-    date: "2023 Sep - Present",
+    date: "2023 Sep - 2024 Mar",
   },
+  {
+    title: "Associate Software Engineer",
+    location: "Mumbai, Maharashtra",
+    description:
+      "I'm am currently working as a Associate Software Engineer at Accenture Pvt. Ltd. My core tech. includes React, Express, Node and MongoDB.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 Apr - Present",
+  }
 ] as const;
 
 export const projectsData = [
